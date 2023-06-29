@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: auto;
+}
+
+li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+li:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+li:last-child {
+  border-bottom: none;
+}
